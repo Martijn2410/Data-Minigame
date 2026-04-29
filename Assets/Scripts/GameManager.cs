@@ -16,10 +16,15 @@ public class GameManager : MonoBehaviour
     private Blade blade;
     private Spawner spawner;
 
+    private HealthManager healthManager;
+    private HealthBar healthBar;
+
     private void Awake()
     {
         blade = FindObjectOfType<Blade>();
         spawner = FindObjectOfType<Spawner>();
+        healthManager = FindObjectOfType<HealthManager>();
+        healthBar = FindObjectOfType<HealthBar>();
     }
 
     private void Start()
@@ -36,6 +41,8 @@ public class GameManager : MonoBehaviour
         spawner.enabled = true;
 
         score = 0;
+        healthManager.currentHealth = healthManager.maxHealth;
+        healthBar.healthBarImage.fillAmount = 1f;
         UpdateScoreText();
         UpdateHighScoreText();
 
