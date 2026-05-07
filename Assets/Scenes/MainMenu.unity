@@ -1409,9 +1409,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: 'deTechHelden
-
-'
+  m_text: deNieuwsHelden
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: b7fdc6c474e6475428c50b360e922af6, type: 2}
   m_sharedMaterial: {fileID: -4815312362844302172, guid: b7fdc6c474e6475428c50b360e922af6, type: 2}
@@ -1438,7 +1436,7 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 84.85
+  m_fontSize: 72.55
   m_fontSizeBase: 150
   m_fontWeight: 400
   m_enableAutoSizing: 1
