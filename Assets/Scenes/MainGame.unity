@@ -2612,8 +2612,12 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   objectPrefabs:
-  - prefab: {fileID: 8444310945065048788, guid: 566e469d81ca564459206330f8902e6b, type: 3}
-    spawnChance: 0.7
+  - prefab: {fileID: 8444310945065048788, guid: 4803179fb9977ff45bed16ee7e14d7cd, type: 3}
+    spawnChance: 0.35
+  - prefab: {fileID: 8444310945065048788, guid: 5f227e120f9fc2f4caf61d542a013420, type: 3}
+    spawnChance: 0.35
+  - prefab: {fileID: 8444310945065048788, guid: ebb21c4a211cc2147aa94ea5f3d6e300, type: 3}
+    spawnChance: 0.35
   bombPrefab: {fileID: 543379615671335448, guid: 06048437476f4884d9c98aa9c802a915, type: 3}
   bombChance: 0.075
   minSpawnDelay: 0.25
